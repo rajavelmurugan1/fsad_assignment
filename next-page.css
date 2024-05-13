@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.topics-column {
+  width: 30%; /* Adjust the width to your liking */
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.content-column {
+  width: 70%; /* Occupies the remaining width */
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.mark-complete {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mark-complete:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.lesson-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lesson-link:hover {
+  text-decoration: none;
+}

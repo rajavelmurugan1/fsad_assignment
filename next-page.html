@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="next-page.css">
+  <title>Language Learning App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="topics-column">
+      <button id="progress-bar" class="mark-complete">Loading progress...</button>
+
+      <button class="accordion"><strong>Grammar</strong></button>
+      <div class="panel">
+        <ul id="grammar-lessons">
+          
+        </ul>
+      </div>
+
+      <button class="accordion"><strong>Vocabulary</strong></button>
+      <div class="panel">
+        <ul id="vocab-lessons">
+          
+        </ul>
+      </div>
+
+      <button class="accordion"><strong>Writing</strong></button>
+      <div class="panel">
+        <ul id="writing-lessons">
+          
+        </ul>
+      </div>
+    </div>
+    <div id="content-column" class="content-column">
+      <div id="content" class="content">
+        <p>Please click any topic at the left for awesome content here!</p>
+      </div>
+      
+      <button class="mark-complete" id="mark-complete">Mark as Complete</button>
+      <button class="mark-complete" id="attempt-test">Attempt test</button>
+
+      <div id="test-area" class="content">
+        <p>Lets test your learning!</p>
+      </div>
+    </div>
+  </div>
+  <footer><button class="mark-complete" id="log-out">Log out</button></footer>
+  <script src="next-page.js"></script>
+</body>
+</html>
